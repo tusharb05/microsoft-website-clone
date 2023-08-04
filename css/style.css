@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 div.logo>img {
@@ -9,7 +10,6 @@ div.logo>img {
 div.nav>nav>a {
     text-decoration: none;
     color: #000;
-    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-left: 1rem;
     font-weight: 350;
     font-size: 0.9rem;
@@ -36,4 +36,80 @@ div.nav {
 nav {
     margin-left: 3rem;
     margin-top: 5px;
+}
+div.main-img>img {
+    box-sizing: content-box;
+    width: 100%;
+}
+
+.advertisement {
+    position: relative;
+}
+
+.text {
+    /* background-color: black; */
+    display: inline-block;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+}
+
+.text>h2 {
+    font-weight: 500;
+    padding-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.text>p {
+    padding-bottom: 20px;
+    line-height: 1.5rem;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-items: center;
+    /* background-color: black; */
+    position: relative;
+}
+
+.links>button {
+    background-color: #0067b8;
+    padding: 8px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.links>button:hover {
+    background-color: #1378c5;
+}
+
+.links>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-right: 0;
+    /* background-color: red; */
+}
+
+.links>a:hover {
+    text-decoration: 2px black underline;
+}
+
+.links>p {
+    margin-left: 0;
+    /* background-color: red; */
+    position: absolute;
+    right: 16%;
+    font-size: 20px;
 }
