@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+div.logo>img {
+    height: 1.6rem;
+}
+
+div.nav>nav>a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 1rem;
+    font-weight: 350;
+    font-size: 0.9rem;
+}
+
+header {
+    /* background-color: red; */
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 15px;
+}
+
+div.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    margin-left: 3rem;
+    margin-top: 5px;
+}
