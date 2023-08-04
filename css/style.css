@@ -13,13 +13,19 @@ div.nav>nav>a {
     margin-left: 1rem;
     font-weight: 350;
     font-size: 0.9rem;
+    padding-bottom: 3px;
 }
 
+div.nav>nav>a:hover {
+    border-bottom: 0.2em solid black;
+    /* text-decoration: 2px solid underline; */
+}
 header {
     /* background-color: red; */
     padding-top: 1rem;
     padding-left: 4rem;
     padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 div.nav {
