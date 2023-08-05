@@ -113,3 +113,34 @@ div.main-img>img {
     right: 16%;
     font-size: 20px;
 }
+div.container-1 {
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: black; */
+    justify-content: center;
+}
+
+div[class^="item-"] {
+    /* display: inline-block; */
+    /* background-color: grey; */
+    width: 17%;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+div[class^="item-"]>img {
+    width: 18%;
+    margin-bottom: 14px;
+}
+
+div[class^="item-"]>a {
+    text-decoration: underline solid #0067b8 2px;
+    color: #0067b8;
+}
